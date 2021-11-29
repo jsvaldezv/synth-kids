@@ -8,7 +8,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link href="css/album.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,15 +20,16 @@
       </div>
   </header>
 
-  <section class="jumbotron text-center">
-    <div id="back">
-      <div class="absolute">
+  <video autoplay muted loop id="background">
+    <source src="img/headvideo.mp4" type="video/mp4">
+  </video>
+
+  <section class="main">
+      <div>
         <h1>Synthesizer for kids</h1>
         <p>Basic synthesizer so that children can learn basic music theory while having fun.</p>
-        <p><a href="dsp.html" class="btn btn-primary my-2">TRY IT</a></p>
+        <p><a href="dsp.html" class="btn btn-primary my-2">Try</a></p>
       </div>
-      <video src="img/headvideo.mp4" autoplay loop muted></video>
-    </div>
   </section>
 
 </html>
