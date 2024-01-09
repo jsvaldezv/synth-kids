@@ -4,4 +4,4 @@
 
 Basic synthesizer so that children can learn basic music theory while having fun. It was developed with HTML, CSS and JavaScript using the JavaScript's WEB Audio API.
 
-Demo: https://jsvaldezv.github.io/SynthKids/
+Demo: https://jsvaldezv.github.io/synth-kids/
